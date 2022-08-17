@@ -1,0 +1,146 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url('../images/happy-birthday-background-with-multicolor-air-balloon-on-purple-background_6053626.jpg!bw700');
+  font-family: 'Open Sans', arial, sans-serif;
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+
+section.contact {
+  background: #e6e9ea;
+}
+
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 37.5rem;
+  margin: 6.25rem auto;
+}
+
+/*
+ * hero Styles
+*/
+
+.hero {
+  line-height: 0;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+/*
+ * section Styles
+*/
+
+section.intro, section.contact {
+  padding: 2.5rem;
+}
+
+section.intro {
+  background: #fff;
+}
+
+/*
+ * aside Styles
+*/
+
+aside.left {
+  float: left;
+}
+
+aside.right {
+  float: right;
+}
+
+aside.right {
+  float: right;
+}
+
+aside {
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+/*
+ * some Styles
+*/
+
+.dog {
+ margin: 0 0 0 2rem;
+  width: 129px;
+  height: 190px;
+}
+.img-1, .img-2, .img-3 {
+  width: 129px;
+  height: 190px;
+}
+
+section.contact {
+  background: #e6e9ea;
+  display: inline-block;
+}
+
+.text-last {
+  padding: 20px 20px 0 0;
+}
+
